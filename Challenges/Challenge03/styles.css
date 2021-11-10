@@ -1,0 +1,56 @@
+
+.container{
+    width: 859px;
+    height: 928px;
+    display: grid;
+   
+}
+.fecha{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+}
+.hoy{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+.tamaño{
+    width: 420px;
+    height: 150px;
+    background-color: #203774;
+}
+img{
+    width: 50px;
+    border: 1px solid;
+    border-color: #4868bd;
+}
+.tarjetas{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 10px;
+    color: white;
+    font-weight: bold;
+}
+.card-header{
+    width: 100%;
+    color: white;
+    font-weight: bolder;
+    height: 50px;
+    font-size: 1.3rem;
+}
+button{
+    position: absolute;
+    right: 0px;
+    top: 20px;
+
+}
+
+.nombre{
+    position: absolute;
+    left: 65px;
+    bottom: 15px;
+}
